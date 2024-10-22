@@ -323,7 +323,7 @@ hr {
     width: 100%;
     display: flex;
     justify-content: center;
-    
+    position: relative;
 
 }
 
@@ -338,6 +338,7 @@ hr {
 .slides {
     width: 100%;
     overflow: hidden;
+    position: relative;
 
 }
 .allSlides {
@@ -345,6 +346,7 @@ hr {
     display: flex;
     transform: translateX(-25%);
     transition: all 0.8s ease-in-out;
+    position: relative;
 }
 
 .firstSlide {
@@ -445,11 +447,16 @@ hr {
     background-color: blueviolet;
 }
 
+
+.slideLeftElement{
+    position: absolute;
+    left: 145px;
+    top: 230px;
+}
+
 .bigimages {
     width: 120px;
 }
-
-
 
 .checkOut {
     width: 100%;
