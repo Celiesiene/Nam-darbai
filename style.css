@@ -418,6 +418,32 @@ hr {
     margin: 50px 0;
     gap: 10px;
 }
+#slide1:checked + input + input +input + .slides .allSlides{
+    transform: translateX(0);
+}
+#slide2:checked + input +input + .slides .allSlides{
+    transform: translateX(-25%);
+}
+#slide3:checked +input + .slides .allSlides{
+    transform: translateX(-50%);
+}
+#slide4:checked + .slides .allSlides{
+    transform: translateX(-75%);
+}
+#slide1:checked + input + input + input + .allSlides  + .slider-controls label:nth-child(1) {
+    background-color: blueviolet;
+}
+#slide2:checked + input + input + .allSlides + .slider-controls label:nth-child(2) {
+    background-color: blueviolet;
+}
+ 
+#slide3:checked + input + .allSlides + .slider-controls label:nth-child(3) {
+    background-color: blueviolet;
+}
+ 
+#slide4:checked + .allSlides + .slider-controls label:nth-child(4) {
+    background-color: blueviolet;
+}
 
 .bigimages {
     width: 120px;
