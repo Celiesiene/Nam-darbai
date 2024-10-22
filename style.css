@@ -1,0 +1,613 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Mulish;
+}
+
+header {
+    width: 100%;
+    padding: 20px 90px;
+}
+
+.logonav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.logo {
+    width: 160px;
+    height: 41px;
+    top: 56px;
+    left: 191px;
+}
+
+.navigation {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navigation ol {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+    gap: 20px;
+}
+
+.navigation ol li a {
+    color: grey;
+    text-decoration: none;
+}
+
+.navigation ol li .firstA {
+    color: black;
+    font-weight: 700;
+}
+
+.navigation ol li a:hover {
+    color: blueviolet;
+    transition: 0.4s;
+}
+
+.headerContainer {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    position: relative;
+}
+
+.container {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 30px;
+}
+
+.element {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.foto {
+    width: 40%;
+}
+
+.text {
+    width: 20%;
+}
+
+.text p {
+    margin-top: 20px;
+    margin-bottom: 40px;
+    line-height: 32px;
+    color: lightgrey;
+}
+
+.text button {
+    background-color: #109fff;
+    padding: 15px 30px;
+    border-radius: 20px;
+    border-style: none;
+    color: white;
+}
+
+.text button:hover {
+    background-color: blueviolet;
+    transition: 0.4s;
+    cursor: pointer;
+}
+
+.ourServices {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 100px;
+
+}
+
+.background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+.ourServicesText {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    max-width: 900px;
+}
+
+.ourServicesText h2 {
+    margin-bottom: 20px;
+}
+
+.ourServicesText p {
+    color: lightslategray;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-bottom: 70px;
+
+}
+
+hr {
+    font-size: 20px;
+    height: 5px;
+    background-color: black;
+    width: 50px;
+    border: none;
+    margin-bottom: 20px;
+
+}
+
+.sixBoxes {
+    width: 100%;
+    max-width: 90%;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 37px;
+    position: relative;
+
+}
+
+.rightElement {
+    position: absolute;
+    right: 285px;
+    top: 475px;
+    z-index: -1;
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+    height: 354px;
+    border-radius: 20px;
+    box-shadow: 10px 40px 50px 0px #E5E9F666;
+    background-color: #FFFFFF;
+    padding: 54px 45px 47px 37px;
+    gap: 22px;
+}
+
+.box p {
+    color: lightgrey;
+    line-height: 28px;
+}
+
+.boxesBtn {
+    background-color: transparent;
+    color: #109fff;
+    border: #109fff solid 1px;
+    padding: 15px 40px;
+    border-radius: 30px;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.boxesBtn:hover {
+    background-color: blueviolet;
+    transition: 0.4s;
+    cursor: pointer;
+    color: white;
+}
+
+.secondSection {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 140px;
+
+}
+
+.rightText {
+    width: 20%;
+
+}
+
+.rightText h2 {
+    margin-bottom: 20px;
+}
+
+.rightText p {
+    line-height: 30px;
+    color: lightgrey;
+}
+
+.leftImg {
+    width: 40%;
+}
+
+.rightTextBtn {
+    background-color: transparent;
+    color: #109fff;
+    border: #109fff solid 1px;
+    padding: 15px 40px;
+    border-radius: 30px;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.rightTextBtn:hover {
+    background-color: blueviolet;
+    transition: 0.4s;
+    cursor: pointer;
+    color: white;
+}
+
+.thirdSection {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    position: relative;
+    margin-top: 180px;
+
+
+}
+
+.thirdSectionText {
+    width: 20%;
+}
+
+.thirdSectionText h2 {
+    margin-bottom: 20px;
+    line-height: 30px;
+}
+
+.thirdSectionText p {
+    line-height: 30px;
+    color: lightgrey;
+}
+
+.thirdClassBtn {
+    background-color: transparent;
+    color: #109fff;
+    border: #109fff solid 1px;
+    padding: 15px 40px;
+    border-radius: 30px;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+
+}
+
+.thirdClassBtn:hover {
+    background-color: blueviolet;
+    transition: 0.4s;
+    cursor: pointer;
+    color: white;
+}
+
+.arrow {
+    padding-left: 10px;
+    font-weight: 900px;
+    font-size: 20px;
+}
+
+.dottedElement {
+    position: absolute;
+    top: -160px;
+    right: 20px;
+}
+
+.slidesContainer {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    
+
+}
+
+.slider_bin {
+    width: 100%;
+    max-width: 1200px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.slides {
+    width: 100%;
+    overflow: hidden;
+
+}
+.allSlides {
+    width: 400%;
+    display: flex;
+    transform: translateX(-25%);
+    transition: all 0.8s ease-in-out;
+}
+
+.firstSlide {
+    width: 100%;
+    display: flex;
+    column-gap: 60px;
+    color: white;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(45deg,
+            hsl(201deg 87% 59%) 0%,
+            hsl(200deg 86% 62%) 18%,
+            hsl(200deg 86% 65%) 32%,
+            hsl(199deg 85% 68%) 42%,
+            hsl(198deg 84% 70%) 51%,
+            hsl(197deg 84% 73%) 59%,
+            hsl(196deg 83% 76%) 65%,
+            hsl(195deg 83% 78%) 71%,
+            hsl(194deg 83% 81%) 76%,
+            hsl(193deg 83% 84%) 81%,
+            hsl(192deg 85% 87%) 87%,
+            hsl(190deg 90% 90%) 93%,
+            hsl(188deg 100% 93%) 100%);
+    border-radius: 20px
+}
+
+.firstSlide h2 {
+    margin-top: 70px;
+    margin-bottom: 30px;
+}
+
+.slide {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 60px 50px 0;
+
+}
+
+.left {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+
+}
+
+.right {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.slider-controls label{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: grey;
+    cursor: pointer;
+    transition: all 0.4s;
+}
+
+.slider-controls {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin: 50px 0;
+    gap: 10px;
+}
+
+.bigimages {
+    width: 120px;
+}
+
+
+
+.checkOut {
+    width: 100%;
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+
+}
+
+.checkOut h2 {
+    margin-bottom: 30px;
+    font-size: 35px;
+}
+
+.checkOutAllBoxes {
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin-top: 40px;
+
+
+}
+
+.checkOutBox {
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 352px;
+    border: 1px solid white;
+    box-shadow: 10px 40px 50px 0px #E5E9F666;
+    border-radius: 20px;
+    background-color: white;
+    margin-bottom: 20px;
+    padding-bottom: 50px;
+
+}
+
+.checkOutBackground {
+    position: absolute;
+    z-index: -1;
+    right: 0;
+}
+
+.checkOutBox h3 {
+    padding: 20px 40px;
+    line-height: 28px;
+
+
+}
+
+.checkOutBox p {
+    padding: 0 40px;
+    padding-bottom: 20px;
+    line-height: 28px;
+    color: lightgrey;
+}
+
+.checkOutBox a {
+    padding: 20px 40px;
+    color: #4089ED;
+
+}
+
+.checkOutElement {
+    position: absolute;
+    left: 225px;
+    top: 90px;
+    z-index: -1;
+}
+
+.footerContainer {
+    width: 100%;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin-top: 160px;
+
+
+}
+
+.footerInfo {
+    background-color: #5c8ffc;
+    width: 100%;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    gap: 170px;
+position: relative;
+
+
+}
+
+.lastLogo .circle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    font-size: 20px;
+    font-weight: 700;
+    background-color: white;
+    border: 1px solid white;
+    border-radius: 50%;
+    color: #5B9BF3;
+
+}
+
+.lastLogo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    color: white;
+
+}
+
+.lastLogo .logoP {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.leftInfo {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.leftInfo p {
+    line-height: 28px;
+    margin-bottom: 25px;
+    font-size: 15px;
+    font-weight: 100;
+}
+
+.navList {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.navList ul li {
+    list-style: none;
+    line-height: 35px;
+    font-size: 15px;
+    font-weight: 100;
+
+}
+
+.navList ul .firstLine {
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
+.navList ul li a {
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+}
+
+.navList ul li a:hover {
+    transition: all 0.4s ease-in-out;
+    color: blueviolet;
+}
+
+.footerLeftElement {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+
+}
+
+.footerRightElement {
+    position: absolute;
+    right: 80px;
+    top: -70px;
+
+}
